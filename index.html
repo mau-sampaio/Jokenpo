@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="placar">
+            <div class="placarJogador">
+                <p>Jogador</p>
+                <h2>0</h2>
+            </div>
+            <div class="placarCPU">
+                <p>CPU</p>
+                <h2>0</h2>
+            </div>
+        </div>
+        <div class="jogo">
+            <div class="jogador">
+                <img src="img/papel.png" alt="papel">
+            </div>
+            <div class="versus">
+                X
+            </div>
+            <div class="cpu">
+                <img src="img/pedra.png" alt="pedra">
+            </div>
+        </div>
+        <div class="resultado">
+            <h2></h2>
+        </div>
+        <div class="botao">
+            <button onclick="iniciarPartida()">Jogar</button>
+        </div>
+    </div>
+</body>
+
+</html>

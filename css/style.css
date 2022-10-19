@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px;
+    gap: 20px;
+}
+
+.placar {
+    display: flex;
+    gap: 30px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    text-transform:uppercase;
+}
+
+.placar p {
+    font-size: 20px;
+}
+
+.jogo {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 70px;
+    flex: 1;
+}
+
+.jogador img {
+    transform: scaleX(-1);
+}
+
+.versus {
+    font-size: 70pt;
+    color: red;
+}
+
+.resultado {
+    margin: auto;
+}
+
+.botao {
+    margin: auto;
+}
+
+.botao button {
+    background-color: rgb(0, 183, 255);
+    border: 0;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.jogador, .cpu, .versus {
+    display: none;
+}
